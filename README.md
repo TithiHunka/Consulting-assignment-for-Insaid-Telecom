@@ -10,6 +10,7 @@ phone_brand_device_model- device ids, brand, and models phone_brand: note that f
 Brand Name Brand English Mapping '华为' 'Huawei' '小米' 'Xiaomi' '三星' 'Samsung' 'vivo' 'vivo' 'OPPO' 'OPPO' '魅族' 'Meizu' '酷派' 'Coolpad' '乐视' 'LeEco' '联想 ' 'Lenovo' 'HTC' 'HTC'
 
 events_data - when a user uses mobile on INSAID Telecom network, the event gets logged in this data. Each event has an event id, location (lat/long), and the event corresponds to frequency of mobile usage. timestamp: when the user is using the mobile.
+
 ![image](https://user-images.githubusercontent.com/97185610/165026549-407409b6-8cc4-4a00-bb28-d66e41710ae4.png)
 ## Introduction:
 
