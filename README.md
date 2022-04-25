@@ -86,10 +86,13 @@ b)	Python  (Library : Panda, Pandas_Profiling, Numpy, Matplolib, Seaborn, Sweetv
 
 c)	SQL and Excel
 
-##	Conclusion :
+## Suggestions on the basis of Analysis :
 
 a.	TAMIL NADU has the most users in both MALE and FEMALE. We recommend clients to focus more on TAMIL NADU in our state group.
+
 b.	SAMSUNG is the most used brand in focused States. Clients can make combo offers of their call plan with new users who purchase SAMSUNG brand mobile.
+
 c.	Most people are active between 11 -12 pm in most of the States. Clients can run the promotions activity in this hour.
+
 d.	M39+ is the Age segment with maximum users. Clients can propose unique propositions for the segment. We can promote OTT content like Netflix, Hotstar, Amazon Prime etc. to generate additional revenue.
 
