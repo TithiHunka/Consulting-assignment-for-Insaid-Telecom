@@ -71,11 +71,19 @@ Timestamp contains both date and time | We have split the date and time with 2 d
 Chinese names in Phone Brand data series| Converted into English names with reference to respective Chinese name by creating dictionary
 Merging data set	| We have merged data taking device id as reference and using merge function with “inner”
 
+## Description Analysis in Details(EDA) :
+
+
+We have analyzed the data based on following EDA points:
+
+
 ## Tools : DS Tools used :
 
 We have used the following DS Tools 
 a)	Jupyter Notebook / Google Collab
+
 b)	Python  (Library : Panda, Pandas_Profiling, Numpy, Matplolib, Seaborn, Sweetviz,Folium, Geopandas) 
+
 c)	SQL and Excel
 
 ##	Conclusion :
