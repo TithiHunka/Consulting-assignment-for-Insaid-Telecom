@@ -79,7 +79,10 @@ Distribution of Users across Phone Brands (Consider only 10 Most used Phone Bran
 Distribution of Users across Gender | 43 nos. of MALE users and 27 nos. of FEMALE users found in our consulting States
 Distribution of Users across Age Segments | Highest no. of users is coming under the age segment of M 39+ with 10 unique users
 Distribution of Phone Brands (Consider only 10 Most used Phone Brands) for each Age Segment, State, Gender | Age Segment: SAMSUNG is the most used Brand (4 nos.) which is present under the Age segment FEMALE 27-28. 
-Distribution of Phone Brands (Consider only 10 Most used Phone Brands) for each Age Segment, State, Gender | Age Segment: SAMSUNG is the most used Brand (4 nos.) which  is present under the Age segment FEMALE 27-28. Gender: SAMSUNG is used by most of the FEMALES gender with 13 users. 
+Distribution of Phone Brands (Consider only 10 Most used Phone Brands) for each Age Segment, State, Gender | Age Segment: SAMSUNG is the most used Brand (4 nos.) which  is present under the Age segment FEMALE 27-28.State: SAMSUNG is most used in the State TAMILNADU with 13 users. Gender: SAMSUNG is used by most of the FEMALES gender with 13 users. 
+Distribution of Gender for each State, Age Segment and Phone Brand (Consider only 10 Most used Phone Brands)| State: MALE in TAMILNADU has the highest gender users with 26 nos.Age Segment: M39+  is the most used Age Segment with 10 users.Phone Brand: SAMSUNG is used by most FEMALE with 12 users
+
+
 
 
 
