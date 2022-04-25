@@ -72,6 +72,8 @@ Chinese names in Phone Brand data series| Converted into English names with refe
 Merging data set	| We have merged data taking device id as reference and using merge function with “inner”
 
 ## Description Analysis in Details(EDA) :
+We have analyzed the data based on following EDA points:
+
 Exploratory Data Analysis | Outcome(Focused State)
 ------------- | -------------
 Distribution of Users(device_id) across States.  | Highest no. of Users (device_id) found in TAMILNADU with 44 nos.
@@ -80,17 +82,10 @@ Distribution of Users across Gender | 43 nos. of MALE users and 27 nos. of FEMAL
 Distribution of Users across Age Segments | Highest no. of users is coming under the age segment of M 39+ with 10 unique users 
 Distribution of Phone Brands (Consider only 10 Most used Phone Brands) for each Age Segment, State, Gender | Age Segment: SAMSUNG is the most used Brand (4 nos.) which  is present under the Age segment FEMALE 27-28.State: SAMSUNG is most used in the State TAMILNADU with 13 users. Gender: SAMSUNG is used by most of the FEMALES gender with 13 users. 
 Distribution of Gender for each State, Age Segment and Phone Brand (Consider only 10 Most used Phone Brands)| State: MALE in TAMILNADU has the highest gender users with 26 nos.Age Segment: M39+  is the most used Age Segment with 10 users.Phone Brand: SAMSUNG is used by most FEMALE with 12 users
-
-
-
-
-
-
-
-
-
-We have analyzed the data based on following EDA points:
-
+Distribution of Age Segments for each State, Gender, and Phone Brand (Consider only 10 Most used Phone Brands) | State: TAMIL NADU has the highest no. of users across all the focused States in the age segment of 39+ with 7 users.Gender: MALE in the age segment of M39 + is having the highest no. of users with 10 users
+Phone Brand: SAMSUNG has the highest number of users in focused States with 4 users for the age segment F27-38.
+Hourly distribution of Phone Calls | Highest no. of users in focused States is found to be active between 11 -12 pm with 290 events 
+Plot the Users on the Map using any suitable package | We have found few latitude and longitude data outside the region in Tamil Nadu State
 
 ## Tools : DS Tools used :
 
