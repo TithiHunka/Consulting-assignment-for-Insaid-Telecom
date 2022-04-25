@@ -46,7 +46,7 @@ Now that we have clean data, it’s time to manipulate it to get the most value 
 
 Now we have a nice dataset, we started exploring it by building graphs. Visualization is the best way to explore and communicate our findings and is the next phase of your data analytics project. This helps us to enrich our dataset and develop more interesting findings. For example, by putting our data points on a map we could perhaps notice that specific geographic zones have more usage/users/brands than specific states or cities.
 
-## 5.	Sources of Data (Explanation about database connection, tables, and their columns) :
+## Sources of Data (Explanation about database connection, tables, and their columns) :
 
 ##### a)	Connecting with MYSQL database server to get the gender and phone brand files.
 
@@ -57,3 +57,31 @@ b.	phone_brand_device_model - device ids, phone brand, and phone models: note th
 ##### b)	Downloading the CSV file for event data
 
 a.	events_data - when a user uses mobile on INSAID Telecom network, the event gets logged in this data. Each event has an event id, location (lat/long), and the event corresponds to frequency of mobile usage. timestamp: when the user is using the mobile.
+
+## Summary of Data Preprocessing : (Challenges faced with the Data and how we resolved them)
+	
+data taking device id as reference and using merge function with “inner”. 
+Challenges  | Resolution
+------------- | -------------
+Missing values in State data series  | Replaced with mode with reference to City data series
+Missing latitude  | longitude data series	Replaced with mode with reference to City data series
+Negative values for Device id data series | Made all the device id positive using absolution function
+Data type of device id is found to be float in CSV data, whereas it is int in SQL file | Converted device ids in all the database as int64
+Timestamp contains both date and time | We have split the date and time with 2 different data series
+Chinese names in Phone Brand data series| Converted into English names with reference to respective Chinese name by creating dictionary
+Merging data set	| We have merged data taking device id as reference and using merge function with “inner”
+
+## Tools : DS Tools used :
+
+We have used the following DS Tools 
+a)	Jupyter Notebook / Google Collab
+b)	Python  (Library : Panda, Pandas_Profiling, Numpy, Matplolib, Seaborn, Sweetviz,Folium, Geopandas) 
+c)	SQL and Excel
+
+##	Conclusion :
+
+a.	TAMIL NADU has the most users in both MALE and FEMALE. We recommend clients to focus more on TAMIL NADU in our state group.
+b.	SAMSUNG is the most used brand in focused States. Clients can make combo offers of their call plan with new users who purchase SAMSUNG brand mobile.
+c.	Most people are active between 11 -12 pm in most of the States. Clients can run the promotions activity in this hour.
+d.	M39+ is the Age segment with maximum users. Clients can propose unique propositions for the segment. We can promote OTT content like Netflix, Hotstar, Amazon Prime etc. to generate additional revenue.
+
